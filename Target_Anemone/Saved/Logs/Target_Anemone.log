@@ -6844,3 +6844,315 @@ External referencers of SoundClass /Game/MainContents/BP/Sound/SC_Music.SC_Music
 [2024.04.05-12.36.54:108][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.04.05-12.36.54:116][849]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
 [2024.04.05-12.36.54:116][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.37.59:748][324]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.04.05-12.37.59:754][324]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2024.04.05-12.37.59:755][324]LogWorldPartition: Display: GenerateStreaming started...
+[2024.04.05-12.37.59:755][324]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.04.05-12.37.59:755][324]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 226 us)
+[2024.04.05-12.37.59:756][324]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 52 ms)
+[2024.04.05-12.37.59:756][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.05-12.37.59:756][324]PIE: New page: PIE 세션: ThirdPersonMap (2024. 4. 6. 오전 6:37:59)
+[2024.04.05-12.37.59:780][324]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.05-12.37.59:783][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002820s)
+[2024.04.05-12.37.59:783][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002853s)
+[2024.04.05-12.37.59:783][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-12.37.59:784][324]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.05-12.37.59:784][324]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2024.04.05-12.37.59:784][324]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.05-12.37.59:784][324]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.04.05-12.37.59:785][324]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2024.04.05-12.37.59:785][324]LogWorldPartition: Display: WorldPartition initialize took 666 us (total: 304 ms)
+[2024.04.05-12.37.59:785][324]LogPlayLevel: PIE: World Init took: (0.001427s)
+[2024.04.05-12.37.59:826][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.04.05-12.37.59:841][324]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2024.04.05-12.37.59:841][324]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-12.37.59:841][324]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-12.37.59:841][324]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-12.37.59:841][324]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-12.37.59:841][324]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.05-12.37.59:841][324]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.05-12.37.59:841][324]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.05-12.37.59:841][324]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-12.37.59:841][324]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-12.37.59:841][324]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-12.37.59:841][324]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-12.37.59:843][324]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-12.37.59:894][324]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2024.04.05-12.37.59:894][324]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-12.37.59:895][324]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-12.37.59:895][324]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-12.37.59:895][324]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2024.04.05-12.37.59:895][324]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2024.04.05-12.37.59:896][324]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2024.04.05-12.37.59:896][324]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2024.04.05-12.37.59:896][324]LogInit: FAudioDevice initialized.
+[2024.04.05-12.37.59:896][324]LogAudio: Display: Audio Device (ID: 43) registered with world 'ThirdPersonMap'.
+[2024.04.05-12.37.59:900][324]LogLoad: Game class is 'BP_MainGameMode_C'
+[2024.04.05-12.37.59:901][324]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.05-21.37.59
+[2024.04.05-12.37.59:902][324]LogWorld: Bringing up level for play took: 0.001224
+[2024.04.05-12.37.59:903][324]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.04.05-12.37.59:904][324]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2024.04.05-12.37.59:905][324]PIE: 서버가 로그인했습니다.
+[2024.04.05-12.37.59:906][324]PIE: 에디터에서 플레이 총 시작 시간 0.152초입니다.
+[2024.04.05-12.38.03:708][770]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-12.38.03:708][770]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.05-12.38.03:708][770]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.05-12.38.06:042][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.38.15:673][202]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.05-12.38.15:673][202]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.05-12.38.16:200][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.38.16:201][265]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-12.38.16:201][265]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.05-12.38.16:468][297]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.05-12.38.16:468][297]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.05-12.38.17:718][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.38.17:719][447]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-12.38.17:719][447]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.05-12.38.21:528][904]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.05-12.38.21:528][904]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.05-12.38.23:906][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.38.23:906][189]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-12.38.23:906][189]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.05-12.38.24:647][278]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.05-12.38.24:647][278]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.05-12.38.25:558][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.38.25:558][387]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-12.38.25:558][387]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.05-12.38.27:850][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.38.35:410][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.38.35:410][562]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.05-12.38.35:410][562]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-12.38.35:411][562]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.38.35:411][562]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2024.04.05-12.38.35:413][562]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-12.38.35:417][562]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.38.35:437][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.38.35:437][562]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.04.05-12.38.35:438][562]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.04.05-12.38.35:446][562]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.04.05-12.38.35:484][565]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.04.05-12.38.37:004][744]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.04.05-12.38.37:010][744]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2024.04.05-12.38.37:011][744]LogWorldPartition: Display: GenerateStreaming started...
+[2024.04.05-12.38.37:011][744]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.04.05-12.38.37:011][744]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 230 us)
+[2024.04.05-12.38.37:012][744]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 53 ms)
+[2024.04.05-12.38.37:012][744]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.05-12.38.37:012][744]PIE: New page: PIE 세션: ThirdPersonMap (2024. 4. 6. 오전 6:38:37)
+[2024.04.05-12.38.37:013][744]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.05-12.38.37:015][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002761s)
+[2024.04.05-12.38.37:015][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002785s)
+[2024.04.05-12.38.37:015][744]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-12.38.37:016][744]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.05-12.38.37:016][744]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2024.04.05-12.38.37:016][744]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.05-12.38.37:016][744]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.04.05-12.38.37:017][744]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2024.04.05-12.38.37:017][744]LogWorldPartition: Display: WorldPartition initialize took 674 us (total: 304 ms)
+[2024.04.05-12.38.37:017][744]LogPlayLevel: PIE: World Init took: (0.001530s)
+[2024.04.05-12.38.37:033][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.04.05-12.38.37:035][744]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2024.04.05-12.38.37:035][744]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-12.38.37:035][744]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-12.38.37:035][744]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-12.38.37:035][744]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-12.38.37:035][744]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.05-12.38.37:035][744]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.05-12.38.37:035][744]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.05-12.38.37:035][744]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-12.38.37:035][744]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-12.38.37:035][744]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-12.38.37:035][744]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-12.38.37:037][744]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-12.38.37:086][744]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2024.04.05-12.38.37:086][744]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-12.38.37:086][744]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-12.38.37:086][744]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-12.38.37:087][744]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2024.04.05-12.38.37:087][744]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2024.04.05-12.38.37:088][744]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2024.04.05-12.38.37:088][744]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2024.04.05-12.38.37:088][744]LogInit: FAudioDevice initialized.
+[2024.04.05-12.38.37:088][744]LogAudio: Display: Audio Device (ID: 44) registered with world 'ThirdPersonMap'.
+[2024.04.05-12.38.37:091][744]LogLoad: Game class is 'BP_MainGameMode_C'
+[2024.04.05-12.38.37:092][744]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.05-21.38.37
+[2024.04.05-12.38.37:092][744]LogWorld: Bringing up level for play took: 0.001219
+[2024.04.05-12.38.37:094][744]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2024.04.05-12.38.37:095][744]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2024.04.05-12.38.37:095][744]PIE: 서버가 로그인했습니다.
+[2024.04.05-12.38.37:096][744]PIE: 에디터에서 플레이 총 시작 시간 0.087초입니다.
+[2024.04.05-12.38.43:910][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.38.43:910][551]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.05-12.38.43:911][551]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-12.38.43:911][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.38.43:911][551]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2024.04.05-12.38.43:914][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-12.38.43:917][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.38.43:938][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.38.43:938][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.04.05-12.38.43:940][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.04.05-12.38.43:945][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.04.05-12.38.44:002][554]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2024.04.05-12.38.54:905][820]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MainContents/BP/UI/WBP_MainGameMenu.WBP_MainGameMenu
+[2024.04.05-12.38.54:906][820]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-12.38.54:911][820]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-12.38.55:192][820]LogSlateStyle: Warning: 'None' 슬레이트 위젯 스타일을 찾을 수 없습니다. 대신 FToolbarStyle 디폴트를 사용합니다.
+[2024.04.05-12.38.55:192][820]LogSlateStyle: Warning: 'None' 슬레이트 위젯 스타일을 찾을 수 없습니다. 대신 FToolbarStyle 디폴트를 사용합니다.
+[2024.04.05-12.38.56:703][997]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-12.38.56:777][997]LogSavePackage: Moving output files for package: /Game/MainContents/BP/UI/WBP_MainGameMenu
+[2024.04.05-12.38.56:778][997]LogSavePackage: Moving '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Saved/WBP_MainGameMenu7606F6AF497B533B4FF5C0AAB3C6D1A1.tmp' to '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP/UI/WBP_MainGameMenu.uasset'
+[2024.04.05-12.38.56:787][997]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 9.57 sec)
+[2024.04.05-12.38.56:790][997]AssetCheck: New page: 에셋 저장:  WBP_MainGameMenu
+[2024.04.05-12.38.56:790][997]LogContentValidation: Display: /Script/UMGEditor.WidgetBlueprint /Game/MainContents/BP/UI/WBP_MainGameMenu.WBP_MainGameMenu 유효성 검사 중
+[2024.04.05-12.39.08:054][302]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MainContents/BP_Player.BP_Player
+[2024.04.05-12.39.08:055][302]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-12.39.12:335][703]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MainContents/BP/UI/WBP_MainGameOptionsMenu.WBP_MainGameOptionsMenu
+[2024.04.05-12.39.12:335][703]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-12.39.12:340][703]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-12.39.12:613][703]LogSlateStyle: Warning: 'None' 슬레이트 위젯 스타일을 찾을 수 없습니다. 대신 FToolbarStyle 디폴트를 사용합니다.
+[2024.04.05-12.39.12:613][703]LogSlateStyle: Warning: 'None' 슬레이트 위젯 스타일을 찾을 수 없습니다. 대신 FToolbarStyle 디폴트를 사용합니다.
+[2024.04.05-12.40.14:751][720]BlueprintLog: New page: WBP_MainGameOptionsMenu 컴파일
+[2024.04.05-12.40.14:823][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.04.05-12.40.16:109][846]BlueprintLog: New page: WBP_MainGameMenu 컴파일
+[2024.04.05-12.40.16:245][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.04.05-12.41.44:641][164]BlueprintLog: New page: BP_Player 컴파일
+[2024.04.05-12.41.44:722][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.04.05-12.41.45:818][277]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.04.05-12.41.45:824][277]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2024.04.05-12.41.45:825][277]LogWorldPartition: Display: GenerateStreaming started...
+[2024.04.05-12.41.45:826][277]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.04.05-12.41.45:826][277]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 238 us)
+[2024.04.05-12.41.45:827][277]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 54 ms)
+[2024.04.05-12.41.45:827][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.05-12.41.45:827][277]PIE: New page: PIE 세션: ThirdPersonMap (2024. 4. 6. 오전 6:41:45)
+[2024.04.05-12.41.45:850][277]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.05-12.41.45:853][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002826s)
+[2024.04.05-12.41.45:853][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002861s)
+[2024.04.05-12.41.45:854][277]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-12.41.45:854][277]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.05-12.41.45:854][277]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2024.04.05-12.41.45:854][277]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.05-12.41.45:854][277]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.04.05-12.41.45:855][277]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2024.04.05-12.41.45:855][277]LogWorldPartition: Display: WorldPartition initialize took 681 us (total: 305 ms)
+[2024.04.05-12.41.45:855][277]LogPlayLevel: PIE: World Init took: (0.001504s)
+[2024.04.05-12.41.45:882][277]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.04.05-12.41.45:887][277]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2024.04.05-12.41.45:887][277]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-12.41.45:887][277]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-12.41.45:887][277]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-12.41.45:887][277]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-12.41.45:887][277]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.05-12.41.45:887][277]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.05-12.41.45:887][277]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.05-12.41.45:887][277]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-12.41.45:887][277]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-12.41.45:887][277]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-12.41.45:887][277]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-12.41.45:888][277]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-12.41.45:939][277]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2024.04.05-12.41.45:940][277]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-12.41.45:940][277]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-12.41.45:940][277]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-12.41.45:940][277]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2024.04.05-12.41.45:940][277]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2024.04.05-12.41.45:941][277]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2024.04.05-12.41.45:941][277]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2024.04.05-12.41.45:941][277]LogInit: FAudioDevice initialized.
+[2024.04.05-12.41.45:941][277]LogAudio: Display: Audio Device (ID: 45) registered with world 'ThirdPersonMap'.
+[2024.04.05-12.41.45:944][277]LogLoad: Game class is 'BP_MainGameMode_C'
+[2024.04.05-12.41.45:945][277]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.05-21.41.45
+[2024.04.05-12.41.45:945][277]LogWorld: Bringing up level for play took: 0.000952
+[2024.04.05-12.41.45:947][277]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2024.04.05-12.41.45:949][277]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2024.04.05-12.41.45:949][277]PIE: 서버가 로그인했습니다.
+[2024.04.05-12.41.45:951][277]PIE: 에디터에서 플레이 총 시작 시간 0.126초입니다.
+[2024.04.05-12.41.46:941][389]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-12.41.46:941][389]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.05-12.41.46:941][389]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.05-12.41.47:251][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.41.47:251][426]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.05-12.41.47:251][426]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.05-12.41.47:569][464]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-12.41.47:569][464]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.05-12.41.48:502][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.41.48:502][574]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.05-12.41.48:502][574]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.05-12.41.49:338][674]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-12.41.49:338][674]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.05-12.41.51:084][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.41.51:084][883]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.05-12.41.51:084][883]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.05-12.41.51:381][918]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-12.41.51:381][918]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.05-12.41.53:000][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.41.53:000][112]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.05-12.41.53:000][112]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.05-12.41.53:302][148]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-12.41.53:302][148]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.05-12.41.54:411][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.41.54:411][281]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.05-12.41.54:411][281]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.05-12.41.55:910][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.41.55:910][454]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.05-12.41.55:910][454]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-12.41.55:910][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.41.55:910][454]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2024.04.05-12.41.55:913][454]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-12.41.55:917][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.41.55:948][454]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-12.41.55:948][454]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.04.05-12.41.55:949][454]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.04.05-12.41.55:953][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-12.41.55:955][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.04.05-12.41.55:990][455]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2024.04.05-12.41.59:186][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-12.41.59:266][829]LogSavePackage: Moving output files for package: /Game/MainContents/BP/UI/WBP_MainGameMenu
+[2024.04.05-12.41.59:267][829]LogSavePackage: Moving '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Saved/WBP_MainGameMenu5E16800A4E585C41D804C1B9B7E1221A.tmp' to '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP/UI/WBP_MainGameMenu.uasset'
+[2024.04.05-12.41.59:277][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 9.66 sec)
+[2024.04.05-12.41.59:280][829]AssetCheck: New page: 에셋 저장:  WBP_MainGameMenu
+[2024.04.05-12.41.59:280][829]LogContentValidation: Display: /Script/UMGEditor.WidgetBlueprint /Game/MainContents/BP/UI/WBP_MainGameMenu.WBP_MainGameMenu 유효성 검사 중
+[2024.04.05-12.42.00:521][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-12.42.00:590][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainContents/BP_Player" FILE="../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP_Player.uasset" SILENT=true
+[2024.04.05-12.42.00:608][974]LogSavePackage: Moving output files for package: /Game/MainContents/BP_Player
+[2024.04.05-12.42.00:608][974]LogSavePackage: Moving '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Saved/BP_Player9218153F4320877ADC0007BC7262D7FC.tmp' to '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP_Player.uasset'
+[2024.04.05-12.42.00:618][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 9.76 sec)
+[2024.04.05-12.42.00:622][974]AssetCheck: New page: 에셋 저장:  BP_Player
+[2024.04.05-12.42.00:622][974]LogContentValidation: Display: /Script/Engine.Blueprint /Game/MainContents/BP_Player.BP_Player 유효성 검사 중
+[2024.04.05-12.42.06:652][649]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-12.42.06:703][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainContents/BP_Player" FILE="../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP_Player.uasset" SILENT=true
+[2024.04.05-12.42.06:719][649]LogSavePackage: Moving output files for package: /Game/MainContents/BP_Player
+[2024.04.05-12.42.06:720][649]LogSavePackage: Moving '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Saved/BP_PlayerE6AA25C04359903B8317E0BE556D0498.tmp' to '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP_Player.uasset'
+[2024.04.05-12.42.06:729][649]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 9.84 sec)
+[2024.04.05-12.42.06:733][649]AssetCheck: New page: 에셋 저장:  BP_Player
+[2024.04.05-12.42.06:733][649]LogContentValidation: Display: /Script/Engine.Blueprint /Game/MainContents/BP_Player.BP_Player 유효성 검사 중
+[2024.04.05-12.42.14:120][488]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-12.42.14:159][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainContents/BP_Player" FILE="../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP_Player.uasset" SILENT=true
+[2024.04.05-12.42.14:177][488]LogSavePackage: Moving output files for package: /Game/MainContents/BP_Player
+[2024.04.05-12.42.14:177][488]LogSavePackage: Moving '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Saved/BP_Player9A7857FE41EF55D48DC740869F73AE5D.tmp' to '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP_Player.uasset'
+[2024.04.05-12.42.14:186][488]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 9.91 sec)
+[2024.04.05-12.42.14:189][488]AssetCheck: New page: 에셋 저장:  BP_Player
+[2024.04.05-12.42.14:189][488]LogContentValidation: Display: /Script/Engine.Blueprint /Game/MainContents/BP_Player.BP_Player 유효성 검사 중
+[2024.04.05-12.42.15:046][583]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-12.42.15:109][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainContents/BP_Player" FILE="../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP_Player.uasset" SILENT=true
+[2024.04.05-12.42.15:125][583]LogSavePackage: Moving output files for package: /Game/MainContents/BP_Player
+[2024.04.05-12.42.15:126][583]LogSavePackage: Moving '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Saved/BP_Player4544E2D144F4C50D132E1395875F0309.tmp' to '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP_Player.uasset'
+[2024.04.05-12.42.15:136][583]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 9.99 sec)
+[2024.04.05-12.42.15:139][583]AssetCheck: New page: 에셋 저장:  BP_Player
+[2024.04.05-12.42.15:139][583]LogContentValidation: Display: /Script/Engine.Blueprint /Game/MainContents/BP_Player.BP_Player 유효성 검사 중
+[2024.04.05-12.42.17:405][827]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-12.42.17:514][827]LogSavePackage: Moving output files for package: /Game/MainContents/BP/UI/WBP_MainGameOptionsMenu
+[2024.04.05-12.42.17:514][827]LogSavePackage: Moving '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Saved/WBP_MainGameOptionsMenu2EB50CCC47FE721E458D1B8E707F9D1D.tmp' to '../../../../../../Documents/GitHub/Targetr_Anemone/Target_Anemone/Content/MainContents/BP/UI/WBP_MainGameOptionsMenu.uasset'
+[2024.04.05-12.42.17:526][827]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 10.1 sec)
+[2024.04.05-12.42.17:530][827]AssetCheck: New page: 에셋 저장:  WBP_MainGameOptionsMenu
+[2024.04.05-12.42.17:530][827]LogContentValidation: Display: /Script/UMGEditor.WidgetBlueprint /Game/MainContents/BP/UI/WBP_MainGameOptionsMenu.WBP_MainGameOptionsMenu 유효성 검사 중
+[2024.04.05-12.42.22:547][345]LogWorld: UWorld::CleanupWorld for World_100, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-12.42.22:547][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.42.22:555][345]LogWorld: UWorld::CleanupWorld for World_99, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-12.42.22:555][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.42.23:565][450]LogWorld: UWorld::CleanupWorld for World_98, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-12.42.23:565][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.42.24:331][530]LogWorld: UWorld::CleanupWorld for World_96, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-12.42.24:331][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-12.42.24:338][530]LogWorld: UWorld::CleanupWorld for World_95, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-12.42.24:338][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
