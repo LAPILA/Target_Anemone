@@ -1253,3 +1253,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.11-12.09.32:414][162]LogViewport: Scene viewport resized to 316x347, mode Windowed.
 [2024.05.11-12.09.35:448][399]LogViewport: Scene viewport resized to 234x430, mode Windowed.
 [2024.05.11-12.11.09:780][907]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.05.11-12.12.15:937][106]LogDerivedDataCache: C:/Users/taehw/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:55.172 and deleted 0 files with total size 0 MiB. Scanned 29332 files in 27585 folders with total size 2449 MiB.
