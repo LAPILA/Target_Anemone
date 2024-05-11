@@ -54,5 +54,8 @@
 			"Name": "AnimationBudgetAllocator",
 			"Enabled": true
 		}
+	],
+	"AdditionalPluginDirectories": [
+		"../../../../Users/taehw/Downloads/ALS-Community-main"
 	]
 }
