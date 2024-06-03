@@ -3,9 +3,9 @@
 
 #include "BaseButton.h"
 
-void ABaseButton::SetTarget(AButtonTarget* NewTarget)
+void ABaseButton::SetTarget(AButtonTarget* OnceNewTarget)
 {
-	Target = NewTarget;
+	Target = OnceNewTarget;
 }
 
 AButtonTarget* ABaseButton::StartTargetAction()

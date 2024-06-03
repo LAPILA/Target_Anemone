@@ -29,7 +29,7 @@ public:
 	AButtonTarget* Target;
 	//버튼과 상호작용하는 타켓 설정
 	UFUNCTION(BlueprintCallable)
-	void SetTarget(AButtonTarget* NewTarget);
+	void SetTarget(AButtonTarget* OnceNewTarget);
 
 	//버튼과 상호작용하는 타켓의 액션스타트
 	UFUNCTION(BlueprintCallable)
