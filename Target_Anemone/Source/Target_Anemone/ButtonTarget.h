@@ -23,7 +23,16 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere)
+	AButtonTarget* SecondTarget;
+
 	UFUNCTION(BlueprintCallable)
 	bool TargetAction();
+
+	UFUNCTION(BlueprintCallable)
+	void SetTarget(AButtonTarget* SecondNewTarget);
+
+	UFUNCTION(BlueprintCallable)
+	AButtonTarget* StartTargetAction();
 
 };

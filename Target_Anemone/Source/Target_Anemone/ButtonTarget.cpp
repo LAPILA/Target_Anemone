@@ -32,3 +32,20 @@ bool AButtonTarget::TargetAction()
 
 	return true;
 }
+
+void AButtonTarget::SetTarget(AButtonTarget* SecondNewTarget)
+{
+	SecondTarget = SecondNewTarget;
+}
+
+AButtonTarget* AButtonTarget::StartTargetAction()
+{
+	if (SecondTarget == nullptr)
+	{
+		return nullptr;
+		UE_LOG(LogTemp, Display, TEXT("타켓 미지정"))
+	}
+	SecondTarget->TargetAction();
+
+	return SecondTarget;
+}
