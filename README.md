@@ -22,3 +22,6 @@
 
 화음 맵:
 ![image](https://github.com/LAPILA/Target_Anemone/assets/66467529/128cd26a-1ced-4e05-9b57-ac7c30d97d20)
+
+문여닫기 맵:
+![image](https://github.com/LAPILA/Target_Anemone/assets/66467529/e0663b60-cb82-438e-97bf-a6c3567ebdf3)
